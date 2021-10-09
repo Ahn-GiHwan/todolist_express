@@ -54,8 +54,6 @@
 | PATCH  | /todos  | todo 수정.     |
 | DELETE | /todos  | todo 삭제.     |
 
-##
-
 ## Product
 
 > REST API Document 보러가기
@@ -73,18 +71,20 @@ https://documenter.getpostman.com/view/13738913/UUy7b4Sm
 <br>
 <hr>
 
-## VanillaJS version
+## Front-End
+
+### VanillaJS version
 
 > https://github.com/Ahn-GiHwan/todolist
 
 <br>
 
-## TypeScript version
+### TypeScript version
 
 > https://github.com/Ahn-GiHwan/todolist_ts
 
 <br>
 
-## React version
+### React version
 
 > https://github.com/Ahn-GiHwan/todolist_react
