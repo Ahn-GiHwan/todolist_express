@@ -1,0 +1,20 @@
+{
+  "name": "todolist_express",
+  "version": "1.0.0",
+  "description": "express를 이용하여 REST API 구축",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahn-GiHwan/todolist_express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahn-GiHwan/todolist_express/issues"
+  },
+  "homepage": "https://github.com/Ahn-GiHwan/todolist_express#readme"
+}
