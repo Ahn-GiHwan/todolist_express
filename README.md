@@ -16,6 +16,7 @@
 - Router을 이용하여 url분리 하여 구축.
 - mongoose를 활용하여 MongoDB cloude와 연결.
 - path와 res.sendFile을 이용하여 html 파일 response.
+- cors를 사용하여 다른사이트에서 요청하는 것을 허가.
 
 ### MongoDB
 
@@ -76,3 +77,10 @@ https://documenter.getpostman.com/view/13738913/UUy7b4Sm
 ### React version
 
 > https://github.com/Ahn-GiHwan/todolist_react
+
+<br>
+<hr>
+
+## v1.1.0
+
+- cors를 이용하여 다른 사이트에서 요청을 허가.
