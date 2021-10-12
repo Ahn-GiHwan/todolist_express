@@ -26,7 +26,9 @@ router.route("/addTodos").post((req, res) => {
   todos
     .save()
     .then(() => {
-      res.send(`addTodos value:${value}`);
+      Todos.find().then((todos) => {
+        res.json(todos);
+      });
     })
     .catch((e) => {
       res.send(e);
@@ -36,18 +38,40 @@ router.route("/addTodos").post((req, res) => {
 
 router.route("/modifyTodo").patch((req, res) => {
   const { id, value } = req.body;
-  Todos.findOne({ id }, (err, todo) => {
+
+  Todos.updateOne({ _id: id }, { $set: { value } }, (err, todo) => {
     if (err) {
       console.log(err);
     } else {
-      Todos.updateOne({ id }, { $set: { value: value } }, (err, todo) => {
-        if (err) {
-          console.log(err);
-        } else {
-          res.send("변경 완료");
-          console.log(todo);
-        }
+      console.log(todo);
+      Todos.find().then((todos) => {
+        res.json(todos);
       });
+    }
+  });
+});
+
+router.route("/isCheck").patch((req, res) => {
+  const { id } = req.body;
+
+  Todos.findOne({ _id: id }, (err, todo) => {
+    if (err) {
+      console.log(err);
+    } else {
+      const changeCheck = todo.isCheck ? false : true;
+      Todos.updateOne(
+        { _id: id },
+        { $set: { isCheck: changeCheck } },
+        (err, todo) => {
+          if (err) {
+            console.log(err);
+          } else {
+            Todos.find().then((todos) => {
+              res.json(todos);
+            });
+          }
+        }
+      );
     }
   });
 });
@@ -64,8 +88,9 @@ router.route("/delete").delete((req, res) => {
         console.log(err);
         res.send("삭제 실패");
       } else {
-        console.log(todo);
-        res.send("삭제 성공");
+        Todos.find().then((todos) => {
+          res.json(todos);
+        });
       }
     }
   );

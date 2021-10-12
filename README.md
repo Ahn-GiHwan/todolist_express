@@ -36,12 +36,13 @@
 
 ## REST API address
 
-| Method | Address | Info           |
-| ------ | ------- | -------------- |
-| GET    | /todos  | todo들 가져옴. |
-| POST   | /todos  | todo 추가.     |
-| PATCH  | /todos  | todo 수정.     |
-| DELETE | /todos  | todo 삭제.     |
+| Method | Address     | Info                 |
+| ------ | ----------- | -------------------- |
+| GET    | /todos      | todos 가져옴.        |
+| POST   | /addTodos   | todo 추가.           |
+| PATCH  | /modifyTodo | todo의 value 수정.   |
+| PATCH  | /isCheck    | todo의 isCheck 수정. |
+| DELETE | /delete     | todo 삭제.           |
 
 ## Product
 
@@ -84,3 +85,8 @@ https://documenter.getpostman.com/view/13738913/UUy7b4Sm
 ## v1.1.0
 
 - cors를 이용하여 다른 사이트에서 요청을 허가.
+
+## v1.2.0
+
+- API 추가
+- 프론트엔드와의 통신으로 response에 todos 리턴
