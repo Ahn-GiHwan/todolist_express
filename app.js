@@ -1,7 +1,7 @@
-import express from "express";
-import mongoose from "mongoose";
-import mongoDBKey from "./key";
-import todosRouter from "./routes/todosRouter";
+const express = require("express");
+const mongoose = require("mongoose");
+const todosRouter = require("./routes/todosRouter");
+const mongoDBKey = require("./key");
 
 const app = express();
 

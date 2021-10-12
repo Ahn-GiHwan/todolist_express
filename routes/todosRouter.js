@@ -1,6 +1,6 @@
-import express from "express";
-import Todos from "../schema/todosSchema";
-import path from "path";
+const express = require("express");
+const Todos = require("../Schema/todosSchema");
+const path = require("path");
 
 const router = express.Router();
 
@@ -71,4 +71,4 @@ router.route("/delete").delete((req, res) => {
   );
 });
 
-export default router;
+module.exports = router;
