@@ -7,8 +7,6 @@
 <p align="center">
 <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"/></a> &nbsp
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/></a> &nbsp
-<img src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white"/></a> &nbsp
-<img src="https://img.shields.io/badge/Babel-F9DC3E?style=flat-square&logo=Babel&logoColor=white"/></a> &nbsp
 <img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=Heroku&logoColor=white"/></a> &nbsp
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/></a> &nbsp
 <hr>
@@ -22,16 +20,6 @@
 ### MongoDB
 
 - NoSQL로 JSON형식으로 데이터 전송.
-
-### Webpack
-
-- Webpack을 이용하여 번들 사용.
-- 'CleanWebpackPlugin'로 bulid 시 필요없는 파일 삭제.
-- babel-loader로 파일 읽기.
-
-### Babel
-
-- import&export 사용을 가능하게 trasfiling으로 도와준다.
 
 ### Heroku
 
