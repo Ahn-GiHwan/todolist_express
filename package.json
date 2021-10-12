@@ -4,8 +4,7 @@
   "description": "express를 이용하여 REST API 구축",
   "main": "app.js",
   "scripts": {
-    "start": "npm run build && node ./dist/app.js",
-    "build": "webpack --mode=production"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,14 +17,6 @@
     "url": "https://github.com/Ahn-GiHwan/todolist_express/issues"
   },
   "homepage": "https://github.com/Ahn-GiHwan/todolist_express#readme",
-  "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "babel-loader": "^8.2.2",
-    "clean-webpack-plugin": "^4.0.0",
-    "webpack": "^5.58.1",
-    "webpack-cli": "^4.9.0"
-  },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.10"
