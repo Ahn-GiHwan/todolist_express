@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./public/todolist.png" />
     <title>SkyTodo API</title>
     <style>
       body {
@@ -11,46 +12,56 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 100vh;
         background-color: skyblue;
         color: white;
       }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 75%;
+        border: 1px solid white;
+        border-radius: 10px;
+        box-shadow: white 0px 0px 27px 3px;
+      }
+
       a,
       a:visited {
         color: gray;
-        /* color: black; */
       }
+
       hr {
         width: 30%;
       }
     </style>
   </head>
   <body>
-    <h1>Sky Todo</h1>
-    <h2>Document📚</h2>
-    <a
-      href="https://documenter.getpostman.com/view/13738913/UUy7b4Sm"
-      target="_blank"
-      >API 문서 보기 ✅</a
-    >
-    <hr />
-    <h2>Front end 🖥</h2>
-
-    <h3>VanillaJS</h3>
-    <a href="https://skytodo.netlify.app" target="_blank">보러 가기</a>
-    <a href="https://github.com/Ahn-GiHwan/todolist_vanillaJS" target="_blank"
-      >github</a
-    >
-    <hr />
-    <h3>TypeScript</h3>
-    <a href="https://skytodo-ts.netlify.app" target="_blank">보러 가기</a>
-    <a href="https://github.com/Ahn-GiHwan/todolist_ts" target="_blank"
-      >github</a
-    >
-    <hr />
-    <h3>React</h3>
-    <a href="https://skytodo-react.netlify.app" target="_blank">보러 가기</a>
-    <a href="https://github.com/Ahn-GiHwan/todolist_react" target="_blank"
-      >github</a
-    >
+    <div class="container">
+      <h1>Sky Todo</h1>
+      <h2>Document📚</h2>
+      <a
+        href="https://documenter.getpostman.com/view/13738913/UUy7b4Sm"
+        target="_blank"
+        >API 문서 보기 ✅</a
+      >
+      <br />
+      <a href="https://github.com/Ahn-GiHwan/todolist_express" target="_blank"
+        >Github 바로 가기</a
+      >
+      <br />
+      <h2>Front end 🖥</h2>
+      <h3>React</h3>
+      <a href="https://skytodo-react.netlify.app" target="_blank"
+        >사이트 바로 가기</a
+      >
+      <br />
+      <a href="https://github.com/Ahn-GiHwan/todolist_react" target="_blank"
+        >Github 바로가기
+      </a>
+    </div>
   </body>
 </html>
