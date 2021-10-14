@@ -56,7 +56,7 @@ https://documenter.getpostman.com/view/13738913/UUy7b4Sm
 
 (이미지 클릭 시 페이지 이동)
 
-[<img src="https://images.velog.io/images/ahngh/post/a88b5d36-b117-4cbc-b48e-5f037c1ff9f9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-10-09%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.34.28.png" width="250">](https://skytodo-express.herokuapp.com/)
+[<img src="https://images.velog.io/images/ahngh/post/98d5faa9-73f3-49b4-81b4-301862d1b2fe/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-10-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.54.19.png" width="250">](https://skytodo-express.herokuapp.com/)
 
 <br>
 <hr>
